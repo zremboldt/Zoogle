@@ -13,20 +13,21 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 150px;
 }
 
 .logo {
+  margin-bottom: 30px;
   font-size: 80px;
   font-weight: 500;
 }
@@ -49,12 +50,16 @@ main {
 }
 
 input[type="text"] {
-  margin-top: 40px;
-  width: 50vw;
-  padding: 16px 24px;
-  border-radius: 100px;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 7px -1px hsla(0, 0%, 0%, 0.3);
+  width: 90vw;
+  max-width: 500px;
+  padding: 14px;
+  /* border-radius: 100px;
+  border: 1px solid #ddd; */
+  border-radius: 2px;
+  border: none;
+  /* box-shadow: 0 2px 7px -1px hsla(0, 0%, 0%, 0.3), 0 3px 2px -2px hsla(0, 0%, 0%, 0.3); */
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  color: #222;
   font-size: 1rem;
   outline: none;
 }
