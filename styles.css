@@ -76,13 +76,13 @@ input[type="submit"] {
 .appBar {
   position: absolute;
   bottom: 0;
-  /* height: 50px; */
   width: 100vw;
   padding: 8px 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #f1f3f4;
+  font-size: 14px;
 }
 
 a {
