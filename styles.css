@@ -14,9 +14,11 @@ body {
   padding: 0;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
 
 main {
@@ -51,18 +53,37 @@ main {
 
 input[type="text"] {
   width: 90vw;
-  max-width: 500px;
-  padding: 14px;
-  /* border-radius: 100px;
-  border: 1px solid #ddd; */
-  border-radius: 2px;
+  max-width: 550px;
+  padding: 14px 24px;
+  background-color: #f1f3f4;
+  border-radius: 100px;
   border: none;
-  /* box-shadow: 0 2px 7px -1px hsla(0, 0%, 0%, 0.3), 0 3px 2px -2px hsla(0, 0%, 0%, 0.3); */
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-  color: #222;
-  font-size: 1rem;
+  color: #333;
+  font-size: 15px;
   outline: none;
 }
+
+input[type="text"]:hover {
+  background-color: rgb(232, 234, 237);
+}
+
 input[type="submit"] {
   display: none;
+}
+
+.appBar {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100vw;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f3f4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
 }
