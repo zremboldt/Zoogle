@@ -79,7 +79,7 @@ input[type="submit"] {
   padding: 0 50px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #f1f3f4;
 }
 
