@@ -81,8 +81,8 @@ input[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #f1f3f4;
-  font-size: 14px;
+  /* background-color: #f1f3f4; */
+  font-size: 13px;
 }
 
 a {
@@ -99,13 +99,22 @@ a {
   height: 80px;
   border-radius: 5px;
 }
+
 .app:hover {
-  /* background-color: rgb(232, 234, 237);
-  border: 1px solid #ddd; */
-  background-color: white;
+  border: 1px solid #ddd;
 }
 
 .app img {
-  width: 40px;
+  width: 36px;
   margin-bottom: 10px;
+}
+
+/* animation */
+.app {
+  transform: translateY(100px);
+  transition: transform 0.4s cubic-bezier(0.49, 1.54, 0.6, 0.95);
+}
+
+.app.active {
+  transform: translateY(0);
 }
