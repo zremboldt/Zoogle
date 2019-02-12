@@ -9,5 +9,16 @@ app.forEach((app, i) => {
 
 // Logo color mixup on keyup
 const input = document.querySelector(".searchInput");
+const letters = Array.from(document.querySelectorAll(".letter"));
+
+const colorize = () => {
+  letters.forEach(letter => {
+    // class list includes red ? change to blue
+    // class list includes blue ? change to green
+    // class list includes green ? change to yellow
+    // class list includes yellow ? change to red
+  });
+};
 
 input.addEventListener("keyup", () => console.log("keyupped"));
+console.log(letters);
