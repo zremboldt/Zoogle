@@ -38,6 +38,8 @@ main {
 
 .logo span {
   margin: 0;
+  display: inline-block;
+  transition: all 0.1s ease-in-out;
 }
 
 .blue {
@@ -45,12 +47,14 @@ main {
 }
 .red {
   color: #ed412d;
+  transform: scale(0.97);
 }
 .yellow {
   color: #fdbd00;
 }
 .green {
   color: #2da94f;
+  transform: scale(1.03);
 }
 
 input[type="text"] {
